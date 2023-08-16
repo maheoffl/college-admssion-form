@@ -1,42 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>html basic form </title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
-<form method="" action="">
-<h1> COLLEGE ADMISSION PAYMENT FORM </h1>
-<h2> contact information : </h2>
-<p>First  Name:<input type="text" name="firstname" required > </p>
-<p>Last Name :<input type="text" name="lastname" required ></p>
-<fieldset >
-<legend>gender</legend>
-<p>  Male <input type="radio" name="gender" ></p>
-<p>Female <input type="radio" name="gender" ></p>
-</fieldset>
-<P>adress: <textarea name="adress" rows="5" cols="30"></textarea> </P>
-<p> Email:  <input type="email" name="email"> </p>
-<p> Phone : <input type="number" name="pnumber" required></p>
-<hr>
-<h2>payment info:</h2>
-<p>card type: 
-    <select name="card_type" id="card_type">
-        <option value=""> select a card type </option>
-        <option value="visa">visa  </option>
-        <option value="rupay">rupay </option>
-        <option value="mastercard">mastercard</option>
-    
-     </select>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>html basic form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <form method="" action="">
+        <div class="heading">
+          <h1>
+            COLLEGE ADMISSION <span> <br />PAYMENT FORM</span>
+          </h1>
+        </div>
+        <div class="cinfo">
+          <h2>contact information :</h2>
+          <p>First Name:<input type="text" name="firstname" required /></p>
+          <p>Last Name :<input type="text" name="lastname" required /></p>
+          <fieldset>
+            <legend>gender</legend>
+            <p>Male <input type="radio" name="gender" /></p>
+            <p>Female <input type="radio" name="gender" /></p>
+          </fieldset>
+          <p>adress: <textarea name="adress" rows="5" cols="30"></textarea></p>
+          <p>Email: <input type="email" name="email" /></p>
+          <p>Phone : <input type="number" name="pnumber" required /></p>
+          <hr />
+        </div>
+        <div class="pinfo">
+          <h2>payment info:</h2>
+          <p>
+            card type:
+            <select name="card_type" id="card_type">
+              <option value="">select a card type</option>
+              <option value="visa">visa</option>
+              <option value="rupay">rupay</option>
+              <option value="mastercard">mastercard</option>
+            </select>
+          </p>
 
-     <p>card no: <input type="number" name="card_no " id="card_no"> </p>
-     <p> exp date: <input type="date" name="edate" id="edate"></p>
-     <p>cvv: <input type="password" name="cvv"> </p>
-     <input type="submit" value="paynow">
-    </form>
-
-</body>
+          <p>card no: <input type="number" name="card_no " id="card_no" /></p>
+          <p>exp date: <input type="date" name="edate" id="edate" /></p>
+          <p>cvv: <input type="password" name="cvv" /></p>
+          <input type="submit" value="paynow" />
+        </div>
+      </form>
+    </div>
+  </body>
 </html>

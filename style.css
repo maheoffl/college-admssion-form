@@ -1,4 +1,50 @@
 * {
-    background: #000;
-    color: #efe7e7;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(123, 105, 157, 0.789);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+form {
+  height: 50vw;
+  width: 40vw;
+  background-color: aqua;
+  padding: 2vw 4vw;
+}
+.heading {
+  display: flex;
+  font-size: 1vw;
+  justify-content: center;
+  align-items: center;
+}
+.heading span {
+  display: flex;
+  font-size: 1vw;
+  justify-content: center;
+  align-items: center;
+}
+.cinfo h2 {
+  font-size: 1vw;
+  padding: 1vw 0vw;
+}
+.cinfo p,
+fieldset {
+  padding: 0.3vw 1vw;
+}
+.pinfo select,
+p,
+input {
+  padding: 0.3vw 1vw;
 }
